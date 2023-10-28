@@ -1,0 +1,19 @@
+body {
+    font-size: 22px;
+    font-family: monospace;
+    line-height: 1.5;
+    background: #bdb76b;
+    color: #3b1241;
+    padding: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: #3b1241a9;
+    width: 500px;
+    text-align: left;
+    padding: 30px;
+}

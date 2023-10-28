@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    color: purple;
+}
+
+/* input, button {
+    font: inherit;
+} */
+
+p {
+    text-align: right;
+    /* text-indent: 1em; */
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    /* word-spacing: 2em; */
+    font-weight: 100;
+    font-style: oblique;
+    font-family: 'Onest', sans-serif;
+}

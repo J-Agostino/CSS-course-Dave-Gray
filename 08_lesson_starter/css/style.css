@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  padding: 5% 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ol {
+  list-style-type: upper-roman;
+} */
+
+ol{
+  list-style-type: lower-alpha;
+  padding: 0;
+}
+
+.ulex {
+  list-style-type: square;
+  text-align: center;
+  list-style-position: inside; /* this is for leading the points to the same place as athe text */
+  color: rgb(38, 66, 66);
+  list-style-image: url(../images/checkmark.png);
+  /* this line below does the same thing as the other three ones */
+  list-style: square url(../images/checkmark.png) inside;
+}
+
+li {
+  color: blue;
+}
+
+.ulj {
+  list-style: square;
+}
+
+ul li:nth-child(2) {
+  color: red;
+}
+
+ul li:nth-child(odd) {
+  color: rgb(146, 71, 71);
+}
+
+
+.ulj {
+  list-style-position: inside;
+}
+
+.ulj ::marker {
+  color: red;
+  font-family: fantasy;
+  font-size: 1em;
+  content: "Only $5 - ";
+  margin: 0px;
+  padding: 0px;
+}
+
